@@ -45,8 +45,8 @@ metadata:
   name: canary-rollout
 spec:
   scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
+    apiVersion: argoproj.io/v1alpha1
+    kind: Rollout
     name: canary-rollout
   minReplicas: 5
   maxReplicas: 10
