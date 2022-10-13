@@ -22,10 +22,10 @@ spec:
         resources:
           requests:
             cpu: "800m"
-            memmory: "500M"
+            memory: "500M"
           limits:
             cpu: "800m"
-            memmory: "500M"
+            memory: "500M"
   strategy:
     canary:
       maxSurge: "25%"
